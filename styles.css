@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('./res/Lato-Thin.woff') format("woff"),
+       url('./res/Lato-Thin.ttf') format("truetype")  
+}
+
 #titlePage {
   background: linear-gradient(45deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
   background: -webkit-linear-gradient(45deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
@@ -14,7 +20,7 @@
 }
 
 #socialLst > div {
-  margin-bottom: 3vh;
+  margin-bottom: 7vh;
 }
 
 #socialLst > div > img {
@@ -27,7 +33,7 @@
 
 #socialLst > div > a {
   font-size: min(4vh, 5vw);
-  color: #888888;
+  color: #666666;
   font-family: "Lato", sans-serif;
   position: relative;
   left: 5vw;
@@ -69,10 +75,12 @@
   bottom: 7vh;
   cursor: pointer;
 
-    user-select: none;
-      -moz-user-select: -moz-none;
-      -webkit-user-select: none;
-      -ms-user-select: none;
+  font-family: "Lato", serif;
+
+  user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 
 }
 
@@ -134,5 +142,5 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+  overflow: hidden;
 }
